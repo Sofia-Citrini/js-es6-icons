@@ -11,10 +11,6 @@ typeList.forEach (function (element) {
 	cardEl = generateCard(element);
 	
 	containerCard.append (cardEl);
-
-	if (selectEl.value === "animal") {
-		console.log(this)
-	}
 });
 
 function generateCard (type) {
